@@ -14,7 +14,7 @@ This is my spring security learning udemy project notes
 
 ### Configure user using jdbc authentication
 - add postgres driver, jdbc api dependency
-- create datasource, create user and authorities tables based on user.dll in spring security
+- create datasource, create user and authorities tables based on userdetails/jdbc/users.ddl in spring security
 - And provide properties into application.properties
 - create UserDetailsService bean that used JdbcUserDetailsManager
 - Notethat need to create PasswordEncoder bean
