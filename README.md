@@ -18,3 +18,4 @@ This is my spring security learning udemy project notes
 - And provide properties into application.properties
 - create UserDetailsService bean that used JdbcUserDetailsManager
 - Notethat need to create PasswordEncoder bean
+- When testing in Postman using basic auth with username and password values in DB
